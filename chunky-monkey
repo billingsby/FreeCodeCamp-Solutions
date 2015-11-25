@@ -1,0 +1,20 @@
+// Bonfire: Chunky Monkey
+// Author: @billingsby
+// Challenge: http://www.freecodecamp.com/challenges/bonfire-chunky-monkey
+// Learn to Code at Free Code Camp (www.freecodecamp.com)
+
+function chunk(arr, size) {
+  newArray = [];
+  i = 0;
+  
+
+  while (i < arr.length) {
+    newArray.push(arr.slice(i, i += size));
+  }
+
+  return newArray;
+}
+
+
+
+chunk(["a", "b", "c", "d"], 2);
