@@ -1,0 +1,20 @@
+
+// Bonfire: Repeat a string repeat a string
+// Author: @billingsby
+// Challenge: http://www.freecodecamp.com/challenges/bonfire-repeat-a-string-repeat-a-string
+// Learn to Code at Free Code Camp (www.freecodecamp.com)
+
+function repeat(str, num) {
+  if (num >= 0) {
+    newString = str.repeat(num);
+    return newString;
+  } else {
+    return '';
+  }
+    
+
+
+
+}
+
+repeat("*", 3);
