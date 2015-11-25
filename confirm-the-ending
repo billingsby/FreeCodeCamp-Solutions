@@ -1,0 +1,11 @@
+// Bonfire: Confirm the Ending
+// Author: @billingsby
+// Challenge: http://www.freecodecamp.com/challenges/bonfire-confirm-the-ending
+// Learn to Code at Free Code Camp (www.freecodecamp.com)
+
+function end(str, target) {
+return target === str.substr(str.length - target.length);
+}
+ 
+
+end("Bastian", "n");
