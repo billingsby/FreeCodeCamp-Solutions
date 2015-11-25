@@ -1,0 +1,15 @@
+
+// Bonfire: Slasher Flick
+// Author: @billingsby
+// Challenge: http://www.freecodecamp.com/challenges/bonfire-slasher-flick?solution=function%20slasher(arr%2C%20howMany)%20%7B%0A%20%20var%20number%20%3D%20(howMany)%3B%0A%20%20%0A%20%0A%20%20var%20newArray%20%3D%20arr.slice(number)%3B%0A%20%20%20%20return%20newArray%3B%0A%20%20%0A%20%20%20%20%0A%20%20%20%20%0A%20%20%7D%0A%0A%0A%0Aslasher(%5B1%2C%202%2C%203%5D%2C%202)%3B%0A
+// Learn to Code at Free Code Camp (www.freecodecamp.com)
+
+function slasher(arr, howMany) {
+  var number = (howMany);
+  var newArray = arr.slice(number);
+    return newArray;
+}
+
+
+
+slasher([1, 2, 3], 2);
